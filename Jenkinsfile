@@ -15,7 +15,6 @@ pipeline {
         stage('Build Docker Image') {
             when {
                 branch 'master'
-                sh 'echo Hello, World1!'
             }
             steps {
                 script {
